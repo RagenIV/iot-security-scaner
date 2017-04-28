@@ -1,0 +1,7 @@
+
+admin
+Admin
+Administrator
+root
+supervisor
+ubnt
