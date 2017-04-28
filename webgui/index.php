@@ -20,7 +20,7 @@
         ?>
         <script>alert("Успешно! Ожидайте письмо с результатами");</script>
         <?
-    }else {
+    }else if(isset($_GET['failure'])) {
         ?>
         <script>alert("Что-то пошло не так. Повторите запрос");</script>
         <?
@@ -52,7 +52,7 @@
                 <div class="sap_tabs">
                     <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
                         <ul class="resp-tabs-list">
-                            <li class="resp-tab-item grid1" aria-controls="tab_item-0" role="tab"><span>Sign In</span></li>
+                            <li class="resp-tab-item grid1" aria-controls="tab_item-0" role="tab"><span>IoT security checker</span></li>
                             <div class="clear"></div>
                         </ul>
                         <div class="resp-tabs-container">
@@ -68,13 +68,13 @@
                                                 <div class="ckeck-bg">
                                                     <div class="checkbox-form">
                                                         <div class="check-left">
-                                                            </BR>
+                                                        </br>
                                                             <div class="check">
-                                                                <label class="checkbox"><input type="radio" name="adv" ><i> </i>Advanced check</label>
+                                                                <label class="check"><input type="checkbox" name="adv" ><i> </i>Advanced check</label>
                                                             </div>
                                                         </div>
                                                         <div class="check-right">
-                                                            <input type="submit" value="Login">
+                                                            <input type="submit" value="Submit">
                                             </form>
                                         </div>
                                         <div class="clearfix"> </div>
