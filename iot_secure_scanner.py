@@ -13,6 +13,7 @@ import requests_finder
 import brute_post
 import crawler
 
+import subprocess
 
 # import crawler
 
@@ -54,7 +55,6 @@ def gogogo(dic):
 			rrr = requests_finder.findit(lin)
 			for r in rrr:
 				if r[1] == 'post':
-					print('epta')
 					logfi = 'etoneLoGin444'
 					pwdfi = 'eT0HEpassword'
 					for i in ans[2:]:
@@ -68,7 +68,7 @@ def gogogo(dic):
 					if (logfi != 'etoneLoGin444')and(pwdfi != 'eT0HEpassword'):
 						pwd = brute_post.brute(lin, logfi, pwdfi)
 						if len(pwd) == 2:
-							report.append("DANGER: your password isn't strong at all!!!\r\nSolution: change %s's password to more secure\r\nYou can use this: %s (generated automaticaly by random)" % (pwd[1], gen_pass(21)))
+							report.append("DANGER: your WEB password isn't strong at all!!!\r\nSolution: change %s's password to more secure\r\nYou can use this: %s (generated automaticaly by random)" % (pwd[1], gen_pass(21)))
 	else:
 		report.append('Scan was wide')
 		po = port_scaner.scanit(root,[i for i in range(1235)] + [3389,7777,8000,8080,8888,9001])
@@ -80,7 +80,6 @@ def gogogo(dic):
 			rrr = requests_finder.findit(lin)
 			for r in rrr:
 				if r[1] == 'post':
-					print('epta')
 					logfi = 'etoneLoGin444'
 					pwdfi = 'eT0HEpassword'
 					for i in ans[2:]:
@@ -94,7 +93,8 @@ def gogogo(dic):
 					if (logfi != 'etoneLoGin444')and(pwdfi != 'eT0HEpassword'):
 						pwd = brute_post.brute(lin, logfi, pwdfi)
 						if len(pwd) == 2:
-							report.append("DANGER: your password isn't strong at all!!!\r\nSolution: change %s's password to more secure\r\nYou can use this: %s (generated automaticaly by random)" % (pwd[1], gen_pass(21)))
+							report.append("DANGER: your WEB password isn't strong at all!!!\r\nSolution: change %s's password to more secure\r\nYou can use this: %s (generated automaticaly by random)" % (pwd[1], gen_pass(21)))
+						
 				elif r[1] == 'noget':
 					pass
 				else:
