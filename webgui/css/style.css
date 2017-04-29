@@ -57,7 +57,7 @@ color:#fff!important;
 .navbar-brand span{
 	display:block;
 	font-size:14px;
-	color:#803F5F;
+	color:#403f80;
 	line-height: 3em;
     padding: 0 0 0 0.4em;
 }
@@ -70,7 +70,7 @@ color:#fff!important;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #fff;
-    background:  #803F5F;
+    background:  #403f80;
 }
 .navbar-default .navbar-nav > li > a {
        color: #fff;
@@ -79,7 +79,7 @@ color:#fff!important;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #fff;
-    background-color: #803F5F;
+    background-color: #403f80;
 }
 .header-nav {
     padding: 3em 0 0;
@@ -159,7 +159,7 @@ ul li a.dribble:hover{
 }
 .more a{
 	padding:11px 30px;
-	background: #803F5F;
+	background: #403f80;
     font-size: 16px;
 	color:#fff;
 	transition:.5s all;
@@ -170,7 +170,7 @@ ul li a.dribble:hover{
 }
 .more a:hover{
 	background:#fff;
-	color: #803F5F;
+	color: #403f80;
 }
 .sap_tabs {
        background-color: #fff;
@@ -204,7 +204,7 @@ div#horizontalTab {
 }
 .resp-tab-item{
 	font-family: 'Open Sans', sans-serif;
-	    color:#803F5F;
+	    color:#403f80;
 	font-size: 16px;
 	cursor: pointer;
 	    padding: 10px 105.5px;
@@ -226,7 +226,7 @@ div#horizontalTab {
 }
 .resp-tab-active{
 	color: #FFFFFF;
-	background-color:  #803F5F;
+	background-color:  #403f80;
 	text-shadow: none;
 }
 .resp-tabs-container {
@@ -308,10 +308,10 @@ ul.tab_list li a:hover {
 /*-- sign-in --*/
 .in-form input[type="text"],.in-form input[type="password"]{
 	outline: none;
-       border: 1px solid #803F5F;
+       border: 1px solid #403f80;
     width: 100%;
     padding: 12px 10px;
-    color:#803F5F;
+    color:#403f80;
     font-size: 14px;
     background: none;
 	}
@@ -353,7 +353,7 @@ ul.tab_list li a:hover {
 	width:20px;
 	height:20px;
 	outline: none;
-	border: 2px solid #803F5F;
+	border: 2px solid #403f80;
 }
 .checkbox input + i:after {
 	content: '';
@@ -396,7 +396,7 @@ ul.tab_list li a:hover {
     font-size: 16px;
     margin: 1em 0 0 0;
     -webkit-appearance: none;
-    background:  #803F5F;
+    background:  #403f80;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -414,7 +414,7 @@ ul.tab_list li a:hover {
 /*-- //sign-in --*/
 /*-- sign-up --*/
 .Personal h4{
-	color: #803F5F;
+	color: #403f80;
     font-size: 1.4em;
     margin: 0 0 1em;
     text-align: left;
@@ -433,7 +433,7 @@ ul.tab_list li a:hover {
 	    font-size: 1.5em;
     margin: 0 0 1em;
     text-align: left;
-    color: #803F5F;
+    color: #403f80;
     text-transform: uppercase;
 	}
 .Personal input[type="submit"]{
@@ -441,7 +441,7 @@ ul.tab_list li a:hover {
     padding:12px 0;
     width: 30%;
     border: none;
-    background: #803F5F;
+    background: #403f80;
     font-size: 16px;
     color: #fff;
     text-align: center;
@@ -454,7 +454,7 @@ ul.tab_list li a:hover {
     margin: 1em 0 0;
 	}
 .Personal input[type="submit"]:hover{
-	color: #803F5F;
+	color: #403f80;
 	background:#fff;
 	}
 /*-- //sign-up --*/
@@ -465,12 +465,12 @@ ul.tab_list li a:hover {
 }
 .welcome h3,.contact h3,h3.title,.services h3,.menu-title h3{
 	    text-align: center;
-    color: #803F5F;
+    color: #403f80;
     font-size: 3em;
     margin: 0;
 }
 .line{
-	border-top: 1px solid  #803F5F;
+	border-top: 1px solid  #403f80;
     margin: 0.5em auto 1em;
     text-align: center;
     width: 8%;
@@ -491,7 +491,7 @@ p.proident{
 }
 .welcome-info-leftr h4{
 	font-size:1.8em;
-	color: #803F5F;
+	color: #403f80;
 	margin:0;
 	text-transform:capitalize;
 }
@@ -503,7 +503,7 @@ p.proident{
 }
 .welcome-info-leftl img {
     padding: .5em;
-    border: 2px dotted  #803F5F;
+    border: 2px dotted  #403f80;
 }
 .welcome h2 i{
 	display:block;
@@ -517,7 +517,7 @@ p.proident{
 	text-align:center;
 }
 .welcome h2 span{
-	color: #803F5F;
+	color: #403f80;
 }
 .welcome-grid1 p{
 	font-size:14px;
@@ -584,7 +584,7 @@ p.proident{
   color: #fff;
 }
 .footer-grids h4 a {
-       color: #803F5F;
+       color: #403f80;
     font-size: 3em;
     text-decoration: none;
 }
@@ -624,7 +624,7 @@ p.proident{
     outline: none;
     padding: 9px 9px;
     border: none;
-    background: #803F5F;
+    background: #403f80;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -648,7 +648,7 @@ p.proident{
 	color:#868686;
 }
 .footer-bottom p a:hover{
-	color: #803F5F;
+	color: #403f80;
 	border-bottom:1px solid #fff;
 }
 /*--//footer--*/
@@ -684,7 +684,7 @@ p.proident{
 	}
 .contact-right input[type="submit"]{
 	    width: 26%;
-    background: #803F5F;
+    background: #403f80;
     color: #fff;
     font-size: 17px;
     padding: 12px 0;
@@ -944,7 +944,7 @@ h2.typoh2{
 /*-- services --*/
 .services-grd1 h4{
 	font-size: 1.4em;
-	color:#803F5F;
+	color:#403f80;
 	margin: 0 0 0.8em;
 }
 .services-grd:nth-child(4) {
@@ -974,7 +974,7 @@ h2.typoh2{
 	line-height: 1.5em;
 	text-transform:capitalize;
 	font-size: 1.4em;
-	color:#803F5F;
+	color:#403f80;
 	margin: 0 0 0.8em;
 }
 .services-overview-gd p{
@@ -1001,7 +1001,7 @@ h2.typoh2{
 }
 .menu-page-grids h4 a{
 	text-decoration:none;
-	color:#803F5F;
+	color:#403f80;
 	text-transform: capitalize;
 }
 .menu-page-grids h4 a:hover{
@@ -1075,7 +1075,7 @@ h2.typoh2{
 .dinner-info-grid h4{
 	text-transform: capitalize;
     font-size: 1.5em;
-    color:#803F5F;
+    color:#403f80;
     margin: 0;
 }
 .dinner-info-grid p{
@@ -1132,7 +1132,7 @@ p.est {
 	width: 60%;
 }
 .com h3,.leave-a-comment h3{
-	color:#803F5F;
+	color:#403f80;
 	font-size: 1.5em;
 	text-transform: capitalize;
 	margin: 0 0 1em;
@@ -1156,7 +1156,7 @@ p.est {
 	margin:1.5em 0;
 	}
 .leave-a-comment input[type="submit"]{
-	background:#803F5F;
+	background:#403f80;
     color:#fff;
     font-size: 14px;
 	outline: none;
@@ -1189,7 +1189,7 @@ p.est {
   font-size: 14px;
 }
 .search input[type="submit"] {
-    background: #803F5F;
+    background: #403f80;
     color: #fff;
     font-size: 14px;
     transition: .5s all;
@@ -1228,13 +1228,13 @@ p.est {
 }
 .categories ul li a:hover{
 	text-decoration:none;
-	color:#803F5F;
+	color:#403f80;
 }
 .categories-mid {
   margin: 3em 0 0;
 }
 .categories h3,.search h3,.related-posts h3 {
-  color:#803F5F;
+  color:#403f80;
   font-size: 1.5em;
   text-transform: capitalize;
   margin:0 0 1em;
@@ -1798,7 +1798,7 @@ p.est {
 		width: 100%;
 	}
 	h2.resp-accordion {
-		background:  #803F5F;
+		background:  #403f80;
 	}
 	.ckeck-bg {
 		min-height: 80px;
